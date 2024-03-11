@@ -38,7 +38,9 @@ In this tutorial, we will be working with network file shares and permissions. <
 <br />
 
 <p>
-1.  A-Record Exercise.  Connect/log into DC-1 as your domain admin account (mydomain.com\jane_admin).  Connect/log into Client-1 as an admin (mydomain\jane_admin).  From Client-1 try to ping “mainframe” notice that it fails.  
+2.  Attempt to access file shares as a normal user.  On Client-1, navigate to the shared folder (start, run, \\dc-1).  Try to access the folders you just created. Which folders can you access? 
+ Which folders can you create stuff in? Does it make sense?
+  
 </p>
 <p>
 <img width="1512" alt="Screenshot 2024-03-11 at 6 25 17 PM" src="https://github.com/richardwines32/DNS/assets/162821778/b9834df5-0199-44c9-899a-5d69ddbd6d27">
