@@ -16,16 +16,17 @@ In this tutorial, we will be working with network file shares and permissions. <
 <h2>Actions and Observations</h2>
 
 <p>
-1.  Create some sample file shares with various permissions.  Connect/log into DC-1 as your domain admin account (mydomain.com\jane_admin).  Connect/log into Client-1 as a normal user (mydomain\<someuser>).  On DC-1, on the C:\ drive, create 4 folders: “read-access”, “write-access”, “no-access”, “accounting”.  Set the following permissions (share the folder) for the “Domain Users” group: Folder: “read-access”, Group: “Domain Users”, Permission: “Read” Folder: “write-access”,  Group: “Domain Users”, Permissions: “Read/Write” Folder: “no-access”, Group: “Domain Admins”, “Permissions: “Read/Write”.  (Skip accounting for now)
+1.  Create some sample file shares with various permissions.  Connect/log into DC-1 as your domain admin account (mydomain.com\jane_admin).  Connect/log into Client-1 as a normal user (mydomain\<someuser>).  On DC-1, on the C:\ drive, create 4 folders: “read-access”, “write-access”, “no-access”, “accounting”.  
 
 </p>
 <p>
-<img width="1512" alt="Screenshot 2024-03-11 at 6 25 17 PM" src="https://github.com/richardwines32/DNS/assets/162821778/b9834df5-0199-44c9-899a-5d69ddbd6d27">
+<img width="1512" alt="Screenshot 2024-03-11 at 7 38 42 PM" src="https://github.com/richardwines32/Network_File_Shares_and_Permissions/assets/162821778/ed225ff9-e1c5-49aa-8b78-2378141703c4">
+
  </p>
 <br />
 
 <p>
-1.  A-Record Exercise.  Connect/log into DC-1 as your domain admin account (mydomain.com\jane_admin).  Connect/log into Client-1 as an admin (mydomain\jane_admin).  From Client-1 try to ping “mainframe” notice that it fails.  
+1A.  Set the following permissions (share the folder) for the “Domain Users” group: Folder: “read-access”, Group: “Domain Users”, Permission: “Read” Folder: “write-access”,  Group: “Domain Users”, Permissions: “Read/Write” Folder: “no-access”, Group: “Domain Admins”, “Permissions: “Read/Write”.  (Skip accounting for now)  
 </p>
 <p>
 <img width="1512" alt="Screenshot 2024-03-11 at 6 25 17 PM" src="https://github.com/richardwines32/DNS/assets/162821778/b9834df5-0199-44c9-899a-5d69ddbd6d27">
