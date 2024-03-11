@@ -43,7 +43,10 @@ In this tutorial, we will be working with network file shares and permissions. <
   
 </p>
 <p>
-<img width="1512" alt="Screenshot 2024-03-11 at 6 25 17 PM" src="https://github.com/richardwines32/DNS/assets/162821778/b9834df5-0199-44c9-899a-5d69ddbd6d27">
+ <img width="1512" alt="Screenshot 2024-03-11 at 7 54 23 PM" src="https://github.com/richardwines32/Network_File_Shares_and_Permissions/assets/162821778/1c417bbd-c697-420b-9cd9-ddd6c9f2db11">
+<img width="1512" alt="Screenshot 2024-03-11 at 7 54 52 PM" src="https://github.com/richardwines32/Network_File_Shares_and_Permissions/assets/162821778/e0f4a124-b923-4eca-a6da-af6a69e3991a">
+<img width="1512" alt="Screenshot 2024-03-11 at 7 55 26 PM" src="https://github.com/richardwines32/Network_File_Shares_and_Permissions/assets/162821778/7e757c3b-0450-4eb6-93a4-e987c38a4508">
+
  </p>
 <br />
 
