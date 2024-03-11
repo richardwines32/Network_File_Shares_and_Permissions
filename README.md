@@ -20,7 +20,8 @@ In this tutorial, we will be working with network file shares and permissions. <
 
 </p>
 <p>
-<img width="1512" alt="Screenshot 2024-03-11 at 7 38 42 PM" src="https://github.com/richardwines32/Network_File_Shares_and_Permissions/assets/162821778/ed225ff9-e1c5-49aa-8b78-2378141703c4">
+<img width="1512" alt="Screenshot 2024-03-11 at 7 41 50 PM" src="https://github.com/richardwines32/Network_File_Shares_and_Permissions/assets/162821778/d80fdc4f-7803-458e-a3ca-e73af4ed6fdb">
+
 
  </p>
 <br />
