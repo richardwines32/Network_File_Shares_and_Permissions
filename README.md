@@ -6,6 +6,7 @@ In this tutorial, we will be working with network file shares and permissions. <
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Various Command-Line Tools
+- Active Directory
 
 
 <h2>Operating Systems Used </h2>
