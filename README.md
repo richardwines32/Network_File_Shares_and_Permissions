@@ -51,17 +51,18 @@ In this tutorial, we will be working with network file shares and permissions. <
 <br />
 
 <p>
-3.  Create an “ACCOUNTANTS” Security Group, assign permissions, an test access.  Go back to DC-1, in Active Directory, create a security group called “ACCOUNTANTS”.  On the “accounting” folder you created earlier, set the following permissions:  Folder: “accounting”, Group: “ACCOUNTANTS”, Permissions: “Read/Write”.  On Client-1, as  <someuser>, try to access the accountants folder. It should fail.  Log out of Client-1 as  <someuser>.  On DC-1, make <someuser> a member of the “ACCOUNTANTS”  Security Group.  Sign back into Client-1 as <someuser> and try to access the “accounting” share in \\DC-1\ - Does it work now?
-
+3.  Create an “ACCOUNTANTS” Security Group, assign permissions, and test access.  To do this go back to DC-1, in Active Directory, create a security group called “ACCOUNTANTS”.  
  
 </p>
 <p>
-<img width="1512" alt="Screenshot 2024-03-11 at 6 25 17 PM" src="https://github.com/richardwines32/DNS/assets/162821778/b9834df5-0199-44c9-899a-5d69ddbd6d27">
+<img width="1512" alt="Screenshot 2024-03-11 at 8 04 30 PM" src="https://github.com/richardwines32/Network_File_Shares_and_Permissions/assets/162821778/a7c33dbe-4250-41a9-972e-d49ef464e3cd">
+
  </p>
 <br />
 
 <p>
-1.  A-Record Exercise.  Connect/log into DC-1 as your domain admin account (mydomain.com\jane_admin).  Connect/log into Client-1 as an admin (mydomain\jane_admin).  From Client-1 try to ping “mainframe” notice that it fails.  
+3A.  On the “accounting” folder you created earlier, set the following permissions:  Folder: “accounting”, Group: “ACCOUNTANTS”, Permissions: “Read/Write”.  On Client-1, as  <someuser>, try to access the accountants folder. It should fail.  Log out of Client-1 as  <someuser>.  On DC-1, make <someuser> a member of the “ACCOUNTANTS”  Security Group.  Sign back into Client-1 as <someuser> and try to access the “accounting” share in \\DC-1\ - Does it work now?
+
 </p>
 <p>
 <img width="1512" alt="Screenshot 2024-03-11 at 6 25 17 PM" src="https://github.com/richardwines32/DNS/assets/162821778/b9834df5-0199-44c9-899a-5d69ddbd6d27">
