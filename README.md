@@ -75,18 +75,13 @@ In this tutorial, we will be working with network file shares and permissions. <
 
 </p>
 <p>
-<img width="1512" alt="Screenshot 2024-03-11 at 8 05 53 PM" src="https://github.com/richardwines32/Network_File_Shares_and_Permissions/assets/162821778/1656663b-2135-4245-8b00-dd9d476bf04a">
+<img width="1512" alt="Screenshot 2024-03-11 at 8 09 03 PM" src="https://github.com/richardwines32/Network_File_Shares_and_Permissions/assets/162821778/42825dd7-03d5-47e1-8d43-be3c58b7bf32">
+<img width="1512" alt="Screenshot 2024-03-11 at 8 21 07 PM" src="https://github.com/richardwines32/Network_File_Shares_and_Permissions/assets/162821778/81e71b6d-62b9-4315-9061-a1d4fea34925">
+
 
  </p>
 <br />
 
 <p>
-3A.  On the “accounting” folder you created earlier, set the following permissions:  Folder: “accounting”, Group: “ACCOUNTANTS”, Permissions: “Read/Write”.  On Client-1, as  <someuser>, try to access the accountants folder. It should fail.  Log out of Client-1 as  <someuser>.  On DC-1, make <someuser> a member of the “ACCOUNTANTS”  Security Group.  Sign back into Client-1 as <someuser> and try to access the “accounting” share in \\DC-1\ - Does it work now?
 
-</p>
-<p>
-<img width="1512" alt="Screenshot 2024-03-11 at 8 05 53 PM" src="https://github.com/richardwines32/Network_File_Shares_and_Permissions/assets/162821778/1656663b-2135-4245-8b00-dd9d476bf04a">
-
- </p>
-<br />
 
