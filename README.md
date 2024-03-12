@@ -71,7 +71,7 @@ In this tutorial, we will be working with network file shares and permissions. <
 <br />
 
 <p>
-3B.  On Client-1, as  <someuser>, try to access the accountants folder. It should fail.  Log out of Client-1 as  <someuser>.  On DC-1, make <someuser> a member of the “ACCOUNTANTS”  Security Group.  Sign back into Client-1 as <someuser> and try to access the “accounting” share in \\DC-1\ - Does it work now?
+3B.  On Client-1, as  one of the employee logins, try to access the accountants folder. It should fail.  Log out of Client-1.  On DC-1, make the employee user a member of the “ACCOUNTANTS”  Security Group.  Sign back into Client-1 as the employee user and try to access the “accounting” share in \\DC-1\ - Does it work now? Finish.
 
 </p>
 <p>
