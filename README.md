@@ -61,7 +61,7 @@ In this tutorial, we will be working with network file shares and permissions. <
 <br />
 
 <p>
-3A.  On the “accounting” folder you created earlier, set the following permissions:  Folder: “accounting”, Group: “ACCOUNTANTS”, Permissions: “Read/Write”.  On Client-1, as  <someuser>, try to access the accountants folder. It should fail.  Log out of Client-1 as  <someuser>.  On DC-1, make <someuser> a member of the “ACCOUNTANTS”  Security Group.  Sign back into Client-1 as <someuser> and try to access the “accounting” share in \\DC-1\ - Does it work now?
+3A.  On the “accounting” folder you created earlier, set the following permissions:  Folder: “accounting”, Group: “ACCOUNTANTS”, Permissions: “Read/Write”.  
 
 </p>
 <p>
@@ -71,7 +71,7 @@ In this tutorial, we will be working with network file shares and permissions. <
 <br />
 
 <p>
-3A.  On the “accounting” folder you created earlier, set the following permissions:  Folder: “accounting”, Group: “ACCOUNTANTS”, Permissions: “Read/Write”.  On Client-1, as  <someuser>, try to access the accountants folder. It should fail.  Log out of Client-1 as  <someuser>.  On DC-1, make <someuser> a member of the “ACCOUNTANTS”  Security Group.  Sign back into Client-1 as <someuser> and try to access the “accounting” share in \\DC-1\ - Does it work now?
+3B.  On Client-1, as  <someuser>, try to access the accountants folder. It should fail.  Log out of Client-1 as  <someuser>.  On DC-1, make <someuser> a member of the “ACCOUNTANTS”  Security Group.  Sign back into Client-1 as <someuser> and try to access the “accounting” share in \\DC-1\ - Does it work now?
 
 </p>
 <p>
